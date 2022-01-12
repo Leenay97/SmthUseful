@@ -18,11 +18,8 @@ main {
     flex-direction: column;
 }
 header {
-    display: flex;
     min-width: 280px;
     max-width: 600px;
-    justify-content: center;
-    align-items: center;
     margin: 20px auto;
     padding: 0 20px;
 
@@ -43,7 +40,7 @@ img {
     justify-content: space-between;
 }
 button {
-    width: 280px;
+    width: 120px;
     height: 30px;
     border-radius: 0px;
     border: 0;
