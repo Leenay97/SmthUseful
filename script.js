@@ -24,4 +24,45 @@ document.addEventListener('DOMContentLoaded', ()=>{
     translateButton.addEventListener('click', (e)=> {
         img.innerHTML += `<img src="img/${translate}.png"></img>`;
     });
+    document.querySelector('.navodnenie').addEventListener('click', ()=>{
+        img.innerHTML = '';
+        themes[0].forEach((item, index)=>{
+            
+            img.innerHTML += `<img src="img/${item}.png"></img>` + `<img src="img/${item}-t.png"></img>`;
+        });
+    });
+    document.querySelector('.nobel').addEventListener('click', ()=>{
+        img.innerHTML = '';
+        themes[3].forEach((item, index)=>{
+            
+            img.innerHTML += `<img src="img/${item}.png"></img>` + `<img src="img/${item}-t.png"></img>`;
+        });
+    });
+    document.querySelector('.karter').addEventListener('click', ()=>{
+        img.innerHTML = '';
+        themes[2].forEach((item, index)=>{
+            
+            img.innerHTML += `<img src="img/${item}.png"></img>` + `<img src="img/${item}-t.png"></img>`;
+        });
+    });
+    document.querySelector('.corona').addEventListener('click', ()=>{
+        img.innerHTML = '';
+        themes[1].forEach((item, index)=>{
+            
+            img.innerHTML += `<img src="img/${item}.png"></img>` + `<img src="img/${item}-t.png"></img>`;
+        });
+    });
+    document.querySelector('.taifun').addEventListener('click', ()=>{
+        img.innerHTML = '';
+        themes[5].forEach((item, index)=>{
+            
+            img.innerHTML += `<img src="img/${item}.png"></img>` + `<img src="img/${item}-t.png"></img>`;
+        });
+    });
+    document.querySelector('.paralimpics').addEventListener('click', ()=>{
+        img.innerHTML = '';
+        themes[4].forEach((item, index)=>{
+            img.innerHTML += `<img src="img/${item}.png"></img>` + `<img src="img/${item}-t.png"></img>`;
+        });
+    });
 });

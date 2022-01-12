@@ -48,3 +48,14 @@ button {
     font-weight: 600;
     color: rgb(60, 95, 151);
 }
+.texts {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.textbutton {
+    width: 90px;
+    height: 20px;
+    margin: 5px;
+}
