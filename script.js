@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8', 'p9', 'p10', 'p11', 'p12', 'p13', 'p14', 'p15'],
         ['t1', 't2', 't3', 't4', 't5', 't6', 't7', 't8', 't9', 't10', 't11', 't12', 't13', 't14', 't15', 't16', 't17', 't18', 't19', 't20']
     ]
-    let translate = '';
+    let translate = ``;
     nextButton.addEventListener('click', (e)=> {
         let randomTheme = themes[Math.floor(Math.random()*6)];
         console.log(randomTheme);
